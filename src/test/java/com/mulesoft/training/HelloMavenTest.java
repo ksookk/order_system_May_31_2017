@@ -14,7 +14,7 @@ public class HelloMavenTest extends FunctionalTestCase {
 	
     @Test
     public void mavenFlowReturnsHelloMaven() throws Exception {
-    	System.out.println("**** Dynamic HTTP Port used in Junit Test case #1 **** --->" + dynamicPort.getNumber());
+    	System.out.println("\n\n\n**** Dynamic HTTP Port used in Junit Test case #1 **** --->" + dynamicPort.getNumber()+ "\n\n\n");
         runFlowAndExpect("mavenFlow", "Hello Maven");
     }
     
